@@ -463,7 +463,7 @@ clean-stack@^1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-1.3.0.tgz#9e821501ae979986c46b1d66d2d432db2fd4ae31"
 
-cli-ux@^4.3.0:
+cli-ux@^4.3.0, cli-ux@^4.3.1:
   version "4.3.1"
   resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-4.3.1.tgz#4c2ca652c72fa21fdc4a19a27e4cc76f4fe1e80b"
   dependencies:
