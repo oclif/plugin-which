@@ -21,7 +21,7 @@ $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@oclif/plugin-which/0.0.0 darwin-x64 node-v10.1.0
+@oclif/plugin-which/1.0.0 linux-x64 node-v10.1.0
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -30,25 +30,16 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`oclif-example hello [FILE]`](#oclif-example-hello-file)
+* [`oclif-example which COMMAND`](#oclif-example-which-command)
 
-## `oclif-example hello [FILE]`
+## `oclif-example which COMMAND`
 
-describe the command here
+show which plugin a command is in
 
 ```
 USAGE
-  $ oclif-example hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ oclif-example hello
-  hello world from ./src/hello.ts!
+  $ oclif-example which COMMAND
 ```
 
-_See code: [src/commands/hello.ts](https://github.com/oclif/plugin-which/blob/v0.0.0/src/commands/hello.ts)_
+_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/v1.0.0/src/commands/which.ts)_
 <!-- commandsstop -->
