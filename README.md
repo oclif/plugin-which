@@ -9,7 +9,6 @@ find which plugin a command is in
 [![Codecov](https://codecov.io/gh/oclif/plugin-which/branch/master/graph/badge.svg)](https://codecov.io/gh/oclif/plugin-which)
 [![Downloads/week](https://img.shields.io/npm/dw/@oclif/plugin-which.svg)](https://npmjs.org/package/@oclif/plugin-which)
 [![License](https://img.shields.io/npm/l/@oclif/plugin-which.svg)](https://github.com/oclif/plugin-which/blob/master/package.json)
-[![Greenkeeper badge](https://badges.greenkeeper.io/oclif/plugin-which.svg)](https://greenkeeper.io/)
 
 <!-- toc -->
 * [Usage](#usage)
