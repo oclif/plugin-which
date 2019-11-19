@@ -11,7 +11,7 @@ export default class Which extends Command {
     const cmd = this.config.findCommand(args.command, {must: true})
     ux.styledHeader(cmd.id)
     ux.styledObject({
-      plugin: cmd.pluginName
+      plugin: cmd.pluginName,
     }, ['plugin'])
   }
 }
