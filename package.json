@@ -54,7 +54,7 @@
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif-dev readme && git add README.md",
     "lint": "eslint . --ext .ts --config .eslintrc",
-    "pretest": "yarn build --noEmit",
+    "pretest": "yarn build --noEmit && tsc -p test --noEmit",
     "build": "rm -rf lib && tsc"
   }
 }
