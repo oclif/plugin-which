@@ -24,7 +24,7 @@
     "globby": "^11",
     "mocha": "^5",
     "nyc": "^15.1.0",
-    "ts-node": "^8.10.2",
+    "ts-node": "^9.0.0",
     "typescript": "3.8.3"
   },
   "engines": {
