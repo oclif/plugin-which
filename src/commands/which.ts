@@ -1,4 +1,4 @@
-import {Command} from '@oclif/command'
+import {Command} from '@oclif/core'
 import ux from 'cli-ux'
 
 export default class Which extends Command {
@@ -7,7 +7,7 @@ export default class Which extends Command {
   static args = [{name: 'command', required: true}]
 
   async run() {
-    const {args} = this.parse(Which)
+    const {args} = await this.parse(Which)
     const cmd = this.config.findCommand(args.command, {must: true})
     ux.styledHeader(cmd.id)
     ux.styledObject({
