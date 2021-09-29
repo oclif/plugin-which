@@ -19,8 +19,8 @@ find which plugin a command is in
 $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
-$ oclif-example (-v|--version|version)
-@oclif/plugin-which/1.0.3 linux-x64 node-v10.12.0
+$ oclif-example (--version)
+@oclif/plugin-which/2.0.0 darwin-x64 node-v12.22.6
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -29,16 +29,5 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`oclif-example which COMMAND`](#oclif-example-which-command)
 
-## `oclif-example which COMMAND`
-
-show which plugin a command is in
-
-```
-USAGE
-  $ oclif-example which COMMAND
-```
-
-_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/v1.0.3/src/commands/which.ts)_
 <!-- commandsstop -->
