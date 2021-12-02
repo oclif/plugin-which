@@ -20,7 +20,7 @@ $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
 $ oclif-example (--version)
-@oclif/plugin-which/2.0.0 linux-x64 node-v12.22.7
+@oclif/plugin-which/2.0.1 linux-x64 node-v12.22.7
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -29,19 +29,19 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`oclif-example which COMMAND`](#oclif-example-which-command)
+* [`oclif-example which`](#oclif-example-which)
 
-## `oclif-example which COMMAND`
+## `oclif-example which`
 
-show which plugin a command is in
+Show which plugin a command is in.
 
 ```
 USAGE
-  $ oclif-example which [COMMAND]
+  $ oclif-example which
 
 DESCRIPTION
-  show which plugin a command is in
+  Show which plugin a command is in.
 ```
 
-_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/v2.0.0/src/commands/which.ts)_
+_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/v2.0.1/src/commands/which.ts)_
 <!-- commandsstop -->
