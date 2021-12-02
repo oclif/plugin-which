@@ -20,7 +20,7 @@ $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
 $ oclif-example (--version)
-@oclif/plugin-which/2.0.0 darwin-x64 node-v12.22.6
+@oclif/plugin-which/2.0.0 darwin-x64 node-v14.18.1
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
