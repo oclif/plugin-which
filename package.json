@@ -5,15 +5,15 @@
   "author": "Jeff Dickey @jdxcode",
   "bugs": "https://github.com/oclif/plugin-which/issues",
   "dependencies": {
-    "@oclif/core": "^1.0.5",
+    "@oclif/core": "^1.0.7",
     "cli-ux": "^6.0.3",
     "tslib": "^2.0.0"
   },
   "devDependencies": {
     "@oclif/plugin-help": "^5.1.7",
-    "@oclif/test": "^1.2.8",
+    "@oclif/test": "^2.0.2",
     "@types/chai": "^4.1.6",
-    "@types/mocha": "^8.0.0",
+    "@types/mocha": "^9",
     "@types/node": "^14.0.14",
     "chai": "^4.2.0",
     "eslint": "^7.32.0",
@@ -53,7 +53,7 @@
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md",
     "lint": "eslint . --ext .ts --config .eslintrc",
-    "pretest": "yarn build --noEmit && tsc -p test --noEmit",
+    "pretest": "yarn build && tsc -p test --noEmit",
     "build": "rm -rf lib && tsc"
   }
 }
