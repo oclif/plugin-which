@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/oclif/plugin-which/compare/v1.0.3...v1.0.4) (2021-12-09)
+
+
+### Bug Fixes
+
+* bump deps ([a351f1f](https://github.com/oclif/plugin-which/commit/a351f1ffaa51d0856966f7eee579d478d8e199a5))
+
 ## [1.0.3](https://github.com/oclif/plugin-which/compare/v1.0.2...v1.0.3) (2018-10-13)
 
 

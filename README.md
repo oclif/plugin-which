@@ -20,7 +20,7 @@ $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@oclif/plugin-which/1.0.3 linux-x64 node-v10.12.0
+@oclif/plugin-which/1.0.4 linux-x64 node-v17.2.0
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -40,5 +40,5 @@ USAGE
   $ oclif-example which COMMAND
 ```
 
-_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/v1.0.3/src/commands/which.ts)_
+_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/v1.0.4/src/commands/which.ts)_
 <!-- commandsstop -->
