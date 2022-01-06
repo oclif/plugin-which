@@ -20,7 +20,7 @@ $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
 $ oclif-example (--version)
-@oclif/plugin-which/2.0.3 linux-x64 node-v12.22.8
+@oclif/plugin-which/2.0.4 linux-x64 node-v12.22.8
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -43,5 +43,5 @@ DESCRIPTION
   Show which plugin a command is in.
 ```
 
-_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/v2.0.3/src/commands/which.ts)_
+_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/v2.0.4/src/commands/which.ts)_
 <!-- commandsstop -->

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.5](https://github.com/oclif/plugin-which/compare/v2.0.4...v2.0.5) (2022-01-06)
+
+
+### Bug Fixes
+
+* add main to package.json ([#212](https://github.com/oclif/plugin-which/issues/212)) ([bff22f0](https://github.com/oclif/plugin-which/commit/bff22f062c0fef6fb9f4679e09f8ab9c48255977))
+
 ### [2.0.4](https://github.com/oclif/plugin-which/compare/v2.0.3...v2.0.4) (2021-12-17)
 
 
