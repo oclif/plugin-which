@@ -55,5 +55,6 @@
     "lint": "eslint . --ext .ts --config .eslintrc",
     "pretest": "yarn build && tsc -p test --noEmit",
     "build": "rm -rf lib && tsc"
-  }
+  },
+  "main": "lib/index.js"
 }
