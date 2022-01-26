@@ -1,5 +1,4 @@
-import {Command} from '@oclif/core'
-import ux from 'cli-ux'
+import {Command, CliUx} from '@oclif/core'
 
 export default class Which extends Command {
   static description = 'Show which plugin a command is in.'
@@ -8,8 +7,8 @@ export default class Which extends Command {
   async run(): Promise<void> {
     const {argv} = await this.parse(Which)
     const cmd = this.config.findCommand(argv.join(':'), {must: true})
-    ux.styledHeader(cmd.id)
-    ux.styledObject({
+    CliUx.ux.styledHeader(cmd.id)
+    CliUx.ux.styledObject({
       plugin: cmd.pluginName,
     }, ['plugin'])
   }
