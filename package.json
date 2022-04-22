@@ -6,7 +6,7 @@
   "bugs": "https://github.com/oclif/plugin-which/issues",
   "dependencies": {
     "@oclif/core": "^1.7.0",
-    "tslib": "^2.0.0"
+    "tslib": "^2.4.0"
   },
   "devDependencies": {
     "@oclif/plugin-help": "^5.1.10",
