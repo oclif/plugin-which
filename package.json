@@ -22,6 +22,7 @@
     "mocha": "^9",
     "nyc": "^15.1.0",
     "oclif": "^2.6.3",
+    "shx": "^0.3.4",
     "ts-node": "^9.0.0",
     "typescript": "4.6.4"
   },
@@ -46,14 +47,14 @@
   },
   "repository": "oclif/plugin-which",
   "scripts": {
-    "postpack": "rm -f oclif.manifest.json",
+    "postpack": "shx rm -f oclif.manifest.json",
     "posttest": "yarn lint",
     "prepack": "yarn build && oclif manifest . && oclif readme",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md",
     "lint": "eslint . --ext .ts --config .eslintrc",
     "pretest": "yarn build && tsc -p test --noEmit",
-    "build": "rm -rf lib && tsc"
+    "build": "shx rm -rf lib && tsc"
   },
   "main": "lib/index.js"
 }
