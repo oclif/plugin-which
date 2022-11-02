@@ -6,6 +6,7 @@
   "bugs": "https://github.com/oclif/plugin-which/issues",
   "dependencies": {
     "@oclif/core": "^1.18.0",
+    "shx": "^0.3.4",
     "tslib": "^2.4.0"
   },
   "devDependencies": {
@@ -46,14 +47,14 @@
   },
   "repository": "oclif/plugin-which",
   "scripts": {
-    "postpack": "rm -f oclif.manifest.json",
+    "postpack": "shx rm -f oclif.manifest.json",
     "posttest": "yarn lint",
     "prepack": "yarn build && oclif manifest . && oclif readme",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md",
     "lint": "eslint . --ext .ts --config .eslintrc",
     "pretest": "yarn build && tsc -p test --noEmit",
-    "build": "rm -rf lib && tsc"
+    "build": "shx rm -rf lib && tsc"
   },
   "main": "lib/index.js"
 }
