@@ -19,7 +19,7 @@ export default class Which extends Command {
       // So we must use the topicSeparator to split it into an array
       command = argv[0].split(this.config.topicSeparator)
     } else {
-      throw new Error('Missing 1 required arg')
+      throw new Error('"which" expects a command name.  Try something like "which your:command:here" ')
     }
 
     const cmd = this.config.findCommand(command.join(':'), {must: true})
