@@ -9,7 +9,7 @@
     "tslib": "^2.4.1"
   },
   "devDependencies": {
-    "@oclif/plugin-help": "^5.1.23",
+    "@oclif/plugin-help": "^5.2.0",
     "@oclif/test": "^2.2.20",
     "@types/chai": "^4.3.4",
     "@types/mocha": "^9",
