@@ -1,7 +1,7 @@
 {
   "name": "@oclif/plugin-which",
   "description": "find which plugin a command is in",
-  "version": "2.2.7",
+  "version": "2.2.8",
   "author": "Salesforce",
   "bugs": "https://github.com/oclif/plugin-which/issues",
   "dependencies": {
