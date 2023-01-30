@@ -12,14 +12,17 @@ export default class Which extends Command {
 
   async run(): Promise<void> {
     const {argv} = await this.parse(Which)
+
+    if (argv.length === 0) {
+      throw new Error('"which" expects a command name.  Try something like "which your:command:here" ')
+    }
+
     let command = argv
 
     if (argv.length === 1 && typeof argv[0] === 'string') {
       // If this if statement is true then the command to find was passed in as a single string, e.g. `mycli which "my command"`
       // So we must use the topicSeparator to split it into an array
       command = argv[0].split(this.config.topicSeparator)
-    } else {
-      throw new Error('"which" expects a command name.  Try something like "which your:command:here" ')
     }
 
     const cmd = this.config.findCommand(command.join(':'), {must: true})
