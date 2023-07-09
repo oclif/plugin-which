@@ -1,3 +1,12 @@
+## [2.2.23](https://github.com/oclif/plugin-which/compare/2.2.22...2.2.23) (2023-07-09)
+
+
+### Bug Fixes
+
+* **deps:** bump tslib from 2.5.3 to 2.6.0 ([7310ced](https://github.com/oclif/plugin-which/commit/7310ced25434761fb256f10529f28f56b52679de))
+
+
+
 ## [2.2.22](https://github.com/oclif/plugin-which/compare/2.2.21...2.2.22) (2023-06-04)
 
 
