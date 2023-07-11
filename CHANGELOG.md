@@ -1,3 +1,12 @@
+## [2.2.24](https://github.com/oclif/plugin-which/compare/2.2.23...2.2.24) (2023-07-11)
+
+
+### Bug Fixes
+
+* **deps:** bump semver from 5.7.1 to 5.7.2 ([009bea1](https://github.com/oclif/plugin-which/commit/009bea1d2cd34c06895660bddc1567162196527b))
+
+
+
 ## [2.2.23](https://github.com/oclif/plugin-which/compare/2.2.22...2.2.23) (2023-07-09)
 
 
