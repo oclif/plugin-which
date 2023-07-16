@@ -684,12 +684,12 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/plugin-help@^5.1.19", "@oclif/plugin-help@^5.2.11":
-  version "5.2.11"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-5.2.11.tgz#4dc5cf12e11d49ecdbdb3d59958673eb091f3a19"
-  integrity sha512-B2cGOyRskorr8NiGrmIBYxEK0c4laJo+W16VeEblLVDW8w6BvnSwC6K4Vd6rkKmPHRsgqoYrA5BCfPTwvUdSCg==
+"@oclif/plugin-help@^5.1.19", "@oclif/plugin-help@^5.2.13":
+  version "5.2.13"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-5.2.13.tgz#101cafdc8a260dcd2f276acef2dcbd224a7fac44"
+  integrity sha512-8+uJ9fxZhb76T+NiHDyLQWmHVhu1ONj+e47w3bMLe3+absfuGsWYZm5+W8ApJxQKoLgB5pW810idO0f7iP/4tw==
   dependencies:
-    "@oclif/core" "^2.8.11"
+    "@oclif/core" "^2.9.3"
 
 "@oclif/plugin-not-found@^2.3.7":
   version "2.3.17"
