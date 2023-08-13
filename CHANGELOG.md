@@ -1,3 +1,12 @@
+## [2.2.30](https://github.com/oclif/plugin-which/compare/2.2.29...2.2.30) (2023-08-13)
+
+
+### Bug Fixes
+
+* **deps:** bump ansi-regex from 3.0.0 to 3.0.1 ([444dfc5](https://github.com/oclif/plugin-which/commit/444dfc5870cec45d5271064a2b3316e6704e0137))
+
+
+
 ## [2.2.29](https://github.com/oclif/plugin-which/compare/2.2.28...2.2.29) (2023-07-30)
 
 
