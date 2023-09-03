@@ -713,10 +713,10 @@
     lodash "^4.17.21"
     semver "^7.5.4"
 
-"@oclif/test@^2.4.8":
-  version "2.4.8"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-2.4.8.tgz#7ed1bc404a318246fbfb62955689efd65a28330e"
-  integrity sha512-It+BEHR8FtzgstDT0h7V8wX9aniK1AecC65V6fyD7/dA7/4gktlr+HgDRwR/NC12QQsngdFRawf5u/TE1/AEgA==
+"@oclif/test@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-2.5.1.tgz#75531da3beb0ad80f17544cba6f3e61bacacecb0"
+  integrity sha512-lqkhze4ijrBg1MmnVIbxk9rvsD8NiR3ISJ2SiM43tYTCVY6eY+up9p/IjD8i9ZoT/7khnfA/Jxhq0OYOjRYvuw==
   dependencies:
     "@oclif/core" "^2.11.10"
     fancy-test "^2.0.35"
