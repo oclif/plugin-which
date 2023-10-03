@@ -1,3 +1,12 @@
+## [2.2.34](https://github.com/oclif/plugin-which/compare/2.2.33...2.2.34) (2023-10-03)
+
+
+### Bug Fixes
+
+* **deps:** bump debug from 3.2.5 to 3.2.7 ([b337b8d](https://github.com/oclif/plugin-which/commit/b337b8d425066d8385faa32903e7c88e6ccd5617))
+
+
+
 ## [2.2.33](https://github.com/oclif/plugin-which/compare/2.2.32...2.2.33) (2023-09-28)
 
 
