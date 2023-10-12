@@ -2,13 +2,14 @@ import {Command, ux} from '@oclif/core'
 
 export default class Which extends Command {
   static description = 'Show which plugin a command is in.'
-  static strict = false;
   static examples = [
     {
-      description: 'See which plugin the `help` command is in:',
       command: '<%= config.bin %> <%= command.id %> help',
+      description: 'See which plugin the `help` command is in:',
     },
   ]
+
+  static strict = false
 
   async run(): Promise<void> {
     const {argv} = await this.parse(Which)
@@ -27,8 +28,11 @@ export default class Which extends Command {
 
     const cmd = this.config.findCommand(command.join(':'), {must: true})
     ux.styledHeader(command.join(this.config.topicSeparator))
-    ux.styledObject({
-      plugin: cmd.pluginName,
-    }, ['plugin'])
+    ux.styledObject(
+      {
+        plugin: cmd.pluginName,
+      },
+      ['plugin'],
+    )
   }
 }
