@@ -1,5 +1,4 @@
-@oclif/plugin-which
-===================
+# @oclif/plugin-which
 
 find which plugin a command is in
 
@@ -10,26 +9,34 @@ find which plugin a command is in
 [![License](https://img.shields.io/npm/l/@oclif/plugin-which.svg)](https://github.com/oclif/plugin-which/blob/main/package.json)
 
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
+
+- [Usage](#usage)
+- [Commands](#commands)
 <!-- tocstop -->
+
 # Usage
+
 <!-- usage -->
+
 ```sh-session
 $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
 $ oclif-example (--version)
-@oclif/plugin-which/2.0.5 linux-x64 node-v12.22.9
+@oclif/plugin-which/2.2.35 linux-x64 node-v18.18.0
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
 ...
 ```
+
 <!-- usagestop -->
+
 # Commands
+
 <!-- commands -->
-* [`oclif-example which`](#oclif-example-which)
+
+- [`oclif-example which`](#oclif-example-which)
 
 ## `oclif-example which`
 
@@ -41,7 +48,13 @@ USAGE
 
 DESCRIPTION
   Show which plugin a command is in.
+
+EXAMPLES
+  See which plugin the `help` command is in:
+
+    $ oclif-example which help
 ```
 
-_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/v2.0.5/src/commands/which.ts)_
+_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/2.2.35/src/commands/which.ts)_
+
 <!-- commandsstop -->
