@@ -1,3 +1,9 @@
+## [3.0.3](https://github.com/oclif/plugin-which/compare/3.0.2...3.0.3) (2023-10-13)
+
+### Bug Fixes
+
+- **deps:** bump minimatch from 3.0.4 to 3.1.2 ([#454](https://github.com/oclif/plugin-which/issues/454)) ([5c56075](https://github.com/oclif/plugin-which/commit/5c560753484c7e97849ca1b344ccea1b210af5a6))
+
 ## [3.0.2](https://github.com/oclif/plugin-which/compare/3.0.1...3.0.2) (2023-10-12)
 
 ### Bug Fixes
