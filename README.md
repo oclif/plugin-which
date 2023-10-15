@@ -24,7 +24,7 @@ $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
 $ oclif-example (--version)
-@oclif/plugin-which/3.0.3 linux-x64 node-v18.18.0
+@oclif/plugin-which/3.0.4 linux-x64 node-v18.18.0
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -56,6 +56,6 @@ EXAMPLES
     $ oclif-example which help
 ```
 
-_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/3.0.3/src/commands/which.ts)_
+_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/3.0.4/src/commands/which.ts)_
 
 <!-- commandsstop -->
