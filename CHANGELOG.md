@@ -1,3 +1,9 @@
+## [3.0.5](https://github.com/oclif/plugin-which/compare/3.0.4...3.0.5) (2023-10-17)
+
+### Bug Fixes
+
+- **deps:** bump @babel/traverse from 7.10.3 to 7.23.2 ([#460](https://github.com/oclif/plugin-which/issues/460)) ([91bb087](https://github.com/oclif/plugin-which/commit/91bb08746b7c2f02024541e2778bb4c6a2e7d55c))
+
 ## [3.0.4](https://github.com/oclif/plugin-which/compare/3.0.3...3.0.4) (2023-10-15)
 
 ### Bug Fixes
