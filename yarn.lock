@@ -776,7 +776,7 @@
     wordwrap "^1.0.0"
     wrap-ansi "^7.0.0"
 
-"@oclif/core@^3.0.0-beta.19", "@oclif/core@^3.0.4", "@oclif/core@^3.10.8", "@oclif/core@^3.3.1":
+"@oclif/core@^3.0.4", "@oclif/core@^3.10.1", "@oclif/core@^3.10.8", "@oclif/core@^3.3.1":
   version "3.10.8"
   resolved "https://registry.yarnpkg.com/@oclif/core/-/core-3.10.8.tgz#8a855841107576b88a2ebe2e20e6e0d7ee885713"
   integrity sha512-DRiEiXUvijq/1dXL80/sFGdhTjejFiUzxURW7N310TEKlONujas66KhLATfF/nG3mICqTCU0f9B+VNfLtZoGqw==
@@ -840,12 +840,12 @@
   resolved "https://registry.yarnpkg.com/@oclif/prettier-config/-/prettier-config-0.2.1.tgz#1def9f38134f9bfb229257f48a35f7d0d183dc78"
   integrity sha512-XB8kwQj8zynXjIIWRm+6gO/r8Qft2xKtwBMSmq1JRqtA6TpwpqECqiu8LosBCyg2JBXuUy2lU23/L98KIR7FrQ==
 
-"@oclif/test@^3.0.2":
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-3.0.2.tgz#aab9443a1eeb8d996d28020344e6abf7f82c688e"
-  integrity sha512-zTLHSQ1A/9jrzW+jrX9qc1B1pyihtxO+87oW/5lHnNnztvEnmfdcxVKe8CYobpNiSJtAQMBY5BTxgvm9eaZD5Q==
+"@oclif/test@^3.1.1":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-3.1.1.tgz#1263f716191977784278643f6e3c57cbbadb8fe2"
+  integrity sha512-88y8E6z0ZVyBdk4RGgZtr2PFYXmfXbnZEqVtKw4K7xf5xIakqN/l8BAoDkBbBU25ELKGoQb4maHfoa9uyfTOtw==
   dependencies:
-    "@oclif/core" "^3.0.0-beta.19"
+    "@oclif/core" "^3.10.1"
     chai "^4.3.10"
     fancy-test "^3.0.1"
 
