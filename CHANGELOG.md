@@ -1,3 +1,9 @@
+## [3.0.12](https://github.com/oclif/plugin-which/compare/3.0.11...3.0.12) (2023-12-10)
+
+### Bug Fixes
+
+- **deps:** bump @oclif/core from 3.12.0 to 3.14.1 ([#493](https://github.com/oclif/plugin-which/issues/493)) ([8608755](https://github.com/oclif/plugin-which/commit/8608755e3e0ce8f581e73cc201aab4ddf4f3e81a))
+
 ## [3.0.11](https://github.com/oclif/plugin-which/compare/3.0.10...3.0.11) (2023-11-26)
 
 ### Bug Fixes
