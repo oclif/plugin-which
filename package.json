@@ -11,7 +11,6 @@
     "@commitlint/config-conventional": "^17.8.1",
     "@oclif/plugin-help": "^5.2.20",
     "@oclif/prettier-config": "^0.2.1",
-    "@oclif/test": "^3.1.14",
     "@types/chai": "^4.3.11",
     "@types/mocha": "^10.0.6",
     "@types/node": "^18",
@@ -36,7 +35,7 @@
   "engines": {
     "node": ">=18.0.0"
   },
-  "exports": "././lib/index.js",
+  "exports": "./lib/index.js",
   "files": [
     "/lib",
     "/oclif.manifest.json",
