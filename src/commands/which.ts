@@ -1,7 +1,14 @@
-import {Command, ux} from '@oclif/core'
+import {Command, Errors, toConfiguredId, ux} from '@oclif/core'
+
+type WhichResult = {
+  aliasOf?: string
+  plugin: string
+}
 
 export default class Which extends Command {
   static description = 'Show which plugin a command is in.'
+  static enableJsonFlag = true
+
   static examples = [
     {
       command: '<%= config.bin %> <%= command.id %> help',
@@ -11,28 +18,38 @@ export default class Which extends Command {
 
   static strict = false
 
-  async run(): Promise<void> {
+  async run(): Promise<WhichResult> {
     const {argv} = await this.parse(Which)
 
     if (argv.length === 0) {
-      throw new Error('"which" expects a command name.  Try something like "which your:command:here" ')
+      throw new Errors.CLIError('"which" expects a command name', {
+        suggestions: [`Provide a command id like this, "${this.config.bin} which your:command:here"`],
+      })
     }
 
-    let command = argv
+    // if argv is length 1 and is a string, split it by the topicSeparator (e.g. "my:command" => ["my", "command"], "my command" => ["my", "command"])
+    // otherwise, use argv as is (e.g. ["my", "command"] => ["my", "command"])
+    const commandParts =
+      argv.length === 1 && typeof argv[0] === 'string' ? argv[0].split(this.config.topicSeparator) : argv
 
-    if (argv.length === 1 && typeof argv[0] === 'string') {
-      // If this if statement is true then the command to find was passed in as a single string, e.g. `mycli which "my command"`
-      // So we must use the topicSeparator to split it into an array
-      command = argv[0].split(this.config.topicSeparator)
+    const cmd = this.config.findCommand(commandParts.join(':'), {must: true})
+
+    const isAlias = cmd.aliases.includes(commandParts.join(':'))
+
+    const result: WhichResult = {plugin: cmd.pluginName ?? 'unknown'}
+
+    if (isAlias) {
+      const possible = this.config.commands.find((c) => c.aliases.includes(cmd.id) && c.id !== cmd.id)
+      if (possible) {
+        result.aliasOf = toConfiguredId(possible?.id, this.config)
+      }
     }
 
-    const cmd = this.config.findCommand(command.join(':'), {must: true})
-    ux.styledHeader(command.join(this.config.topicSeparator))
-    ux.styledObject(
-      {
-        plugin: cmd.pluginName,
-      },
-      ['plugin'],
-    )
+    if (!this.jsonEnabled()) {
+      ux.styledHeader(commandParts.join(this.config.topicSeparator))
+      ux.styledObject(result)
+    }
+
+    return result
   }
 }
