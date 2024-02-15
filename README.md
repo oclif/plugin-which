@@ -24,7 +24,7 @@ $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
 $ oclif-example (--version)
-@oclif/plugin-which/3.0.15 linux-x64 node-v18.19.0
+@oclif/plugin-which/3.1.0 linux-x64 node-v18.19.0
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -45,7 +45,10 @@ Show which plugin a command is in.
 
 ```
 USAGE
-  $ oclif-example which
+  $ oclif-example which [--json]
+
+GLOBAL FLAGS
+  --json  Format output as json.
 
 DESCRIPTION
   Show which plugin a command is in.
@@ -56,6 +59,6 @@ EXAMPLES
     $ oclif-example which help
 ```
 
-_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/3.0.15/src/commands/which.ts)_
+_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/3.1.0/src/commands/which.ts)_
 
 <!-- commandsstop -->

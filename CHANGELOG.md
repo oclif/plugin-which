@@ -1,3 +1,9 @@
+# [3.1.0](https://github.com/oclif/plugin-which/compare/3.0.15...3.1.0) (2024-02-15)
+
+### Features
+
+- show aliasOf if applicable + JSON output ([#545](https://github.com/oclif/plugin-which/issues/545)) ([4066e88](https://github.com/oclif/plugin-which/commit/4066e88ed9db69500cd771adbf92d67050d2d31a))
+
 ## [3.0.15](https://github.com/oclif/plugin-which/compare/3.0.14...3.0.15) (2024-01-15)
 
 ### Bug Fixes
