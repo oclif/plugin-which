@@ -1,0 +1,13 @@
+{
+  "name": "test-plugin",
+  "version": "0.0.0",
+  "private": true,
+  "oclif": {
+    "commands": "./src/commands",
+    "topicSeparator": " ",
+    "plugins": [
+      "@oclif/plugin-which"
+    ]
+  },
+  "main": "./src/index.js"
+}

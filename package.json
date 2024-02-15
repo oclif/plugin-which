@@ -11,10 +11,10 @@
     "@commitlint/config-conventional": "^17.8.1",
     "@oclif/plugin-help": "^5.2.20",
     "@oclif/prettier-config": "^0.2.1",
-    "@oclif/test": "^3.1.14",
     "@types/chai": "^4.3.11",
     "@types/mocha": "^10.0.6",
     "@types/node": "^18",
+    "@types/sinon": "^17.0.3",
     "chai": "^4.4.1",
     "commitlint": "^17.8.1",
     "eslint": "^8.56.0",
@@ -29,13 +29,14 @@
     "oclif": "^4.4.3",
     "prettier": "^3.2.5",
     "shx": "^0.3.4",
+    "sinon": "^17.0.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "engines": {
     "node": ">=18.0.0"
   },
-  "exports": "././lib/index.js",
+  "exports": "./lib/index.js",
   "files": [
     "/lib",
     "/oclif.manifest.json",
