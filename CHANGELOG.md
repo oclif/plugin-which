@@ -1,3 +1,9 @@
+## [3.1.1](https://github.com/oclif/plugin-which/compare/3.1.0...3.1.1) (2024-02-22)
+
+### Bug Fixes
+
+- **deps:** bump ip from 1.1.5 to 1.1.9 ([#550](https://github.com/oclif/plugin-which/issues/550)) ([bc48ba9](https://github.com/oclif/plugin-which/commit/bc48ba952b09497d079ac25ed225463b191cf945))
+
 # [3.1.0](https://github.com/oclif/plugin-which/compare/3.0.15...3.1.0) (2024-02-15)
 
 ### Features
