@@ -5,7 +5,7 @@ import {fileURLToPath} from 'node:url'
 import {SinonSandbox, createSandbox} from 'sinon'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..', 'fixtures/test-plugin')
-console.log(root)
+
 describe('which', () => {
   let sandbox: SinonSandbox
   let config: Config
