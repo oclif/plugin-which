@@ -2,6 +2,9 @@
   "name": "test-plugin",
   "version": "0.0.0",
   "private": true,
+  "dependencies": {
+    "@oclif/plugin-which": "^3"
+  },
   "oclif": {
     "commands": "./src/commands",
     "topicSeparator": " ",
