@@ -5,25 +5,24 @@
   "author": "Salesforce",
   "bugs": "https://github.com/oclif/plugin-which/issues",
   "dependencies": {
-    "@oclif/core": "^3.20.0"
+    "@oclif/core": "^3.21.0"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.8.1",
-    "@oclif/plugin-help": "^5.2.20",
+    "@commitlint/config-conventional": "^18",
+    "@oclif/plugin-help": "^6",
     "@oclif/prettier-config": "^0.2.1",
     "@types/chai": "^4.3.11",
     "@types/mocha": "^10.0.6",
     "@types/node": "^18",
     "@types/sinon": "^17.0.3",
     "chai": "^4.4.1",
-    "commitlint": "^17.8.1",
+    "commitlint": "^18",
     "eslint": "^8.57.0",
     "eslint-config-oclif": "^5.0.3",
     "eslint-config-oclif-typescript": "^3.0.48",
     "eslint-config-prettier": "^9.1.0",
-    "globby": "^11",
-    "husky": "^8.0.3",
-    "lint-staged": "^14.0.1",
+    "husky": "^9",
+    "lint-staged": "^15",
     "mocha": "^10.3.0",
     "nyc": "^15.1.0",
     "oclif": "^4.4.20",
@@ -40,6 +39,7 @@
   "files": [
     "/lib",
     "/oclif.manifest.json",
+    "/npm-shrinkwrap.json",
     "/oclif.lock"
   ],
   "homepage": "https://github.com/oclif/plugin-which",
@@ -59,11 +59,13 @@
   "repository": "oclif/plugin-which",
   "scripts": {
     "build": "shx rm -rf lib && tsc",
+    "clean": "shx rm -f oclif.manifest.json npm-shrinkwrap.json oclif.lock",
+    "compile": "tsc",
     "lint": "eslint . --ext .ts",
-    "postpack": "shx rm -f oclif.manifest.json oclif.lock",
+    "postpack": "yarn run clean",
     "posttest": "yarn lint",
-    "prepack": "yarn build && oclif lock && oclif manifest . && oclif readme",
-    "prepare": "husky install && yarn build",
+    "prepack": "yarn build && oclif manifest && oclif readme && npm shrinkwrap && oclif lock",
+    "prepare": "husky && yarn build",
     "pretest": "yarn build && tsc -p test --noEmit",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
     "version": "oclif readme && git add README.md"
