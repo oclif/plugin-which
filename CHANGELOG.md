@@ -1,3 +1,9 @@
+## [3.1.3](https://github.com/oclif/plugin-which/compare/3.1.2...3.1.3) (2024-03-06)
+
+### Bug Fixes
+
+- publish npm-shrinkwrap.json ([a51ea63](https://github.com/oclif/plugin-which/commit/a51ea631d0ce58342330e27c51326434b7a3ea53))
+
 ## [3.1.2](https://github.com/oclif/plugin-which/compare/3.1.1...3.1.2) (2024-03-03)
 
 ### Bug Fixes
