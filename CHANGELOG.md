@@ -1,3 +1,9 @@
+## [3.1.7](https://github.com/oclif/plugin-which/compare/3.1.6...3.1.7) (2024-03-25)
+
+### Bug Fixes
+
+- remove docs directory ([ed3df0c](https://github.com/oclif/plugin-which/commit/ed3df0c1598179eeb3f98e33a1d3bb88ef95bea9))
+
 ## [3.1.6](https://github.com/oclif/plugin-which/compare/3.1.5...3.1.6) (2024-03-24)
 
 ### Bug Fixes

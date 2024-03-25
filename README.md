@@ -11,7 +11,6 @@ find which plugin a command is in
 - [@oclif/plugin-which](#oclifplugin-which)
 - [Usage](#usage)
 - [Commands](#commands)
-- [Command Topics](#command-topics)
 - [Contributing](#contributing)
 <!-- tocstop -->
 
@@ -24,7 +23,7 @@ $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
 $ oclif-example (--version)
-@oclif/plugin-which/3.1.6 linux-x64 node-v18.19.1
+@oclif/plugin-which/3.1.7 linux-x64 node-v18.19.1
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -37,9 +36,29 @@ USAGE
 
 <!-- commands -->
 
-# Command Topics
+- [`oclif-example which`](#oclif-example-which)
 
-- [`oclif-example which`](docs/which.md) - Show which plugin a command is in.
+## `oclif-example which`
+
+Show which plugin a command is in.
+
+```
+USAGE
+  $ oclif-example which [--json]
+
+GLOBAL FLAGS
+  --json  Format output as json.
+
+DESCRIPTION
+  Show which plugin a command is in.
+
+EXAMPLES
+  See which plugin the `help` command is in:
+
+    $ oclif-example which help
+```
+
+_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/3.1.7/src/commands/which.ts)_
 
 <!-- commandsstop -->
 
