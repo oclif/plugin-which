@@ -9,6 +9,6 @@ node_modules
 /test/**/yarn.lock
 /test/**/node_modules
 
-oclif.lock
+
 oclif.manifest.json
 npm-shrinkwrap.json
