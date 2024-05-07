@@ -38,8 +38,7 @@
   "exports": "./lib/index.js",
   "files": [
     "/lib",
-    "/oclif.manifest.json",
-    "/npm-shrinkwrap.json"
+    "/oclif.manifest.json"
   ],
   "homepage": "https://github.com/oclif/plugin-which",
   "keywords": [
@@ -58,12 +57,12 @@
   "repository": "oclif/plugin-which",
   "scripts": {
     "build": "shx rm -rf lib && tsc",
-    "clean": "shx rm -f oclif.manifest.json npm-shrinkwrap.json",
+    "clean": "shx rm -f oclif.manifest.json",
     "compile": "tsc",
     "lint": "eslint . --ext .ts",
     "postpack": "yarn run clean",
     "posttest": "yarn lint",
-    "prepack": "yarn build && oclif manifest && oclif readme && npm shrinkwrap",
+    "prepack": "yarn build && oclif manifest && oclif readme",
     "prepare": "husky && yarn build",
     "pretest": "yarn build && tsc -p test --noEmit",
     "test": "mocha --forbid-only \"test/**/*.test.ts\"",
