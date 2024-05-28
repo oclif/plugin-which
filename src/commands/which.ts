@@ -1,4 +1,5 @@
-import {Command, Errors, toConfiguredId, ux} from '@oclif/core'
+import {Command, toConfiguredId} from '@oclif/core'
+import {bold, cyan} from 'ansis'
 
 type WhichResult = {
   aliasOf?: string
@@ -14,6 +15,18 @@ export default class Which extends Command {
       command: '<%= config.bin %> <%= command.id %> help',
       description: 'See which plugin the `help` command is in:',
     },
+    {
+      command: '<%= config.bin %> <%= command.id %> foo:bar:baz',
+      description: 'Use colon separators.',
+    },
+    {
+      command: '<%= config.bin %> <%= command.id %> foo bar baz',
+      description: 'Use spaces as separators.',
+    },
+    {
+      command: '<%= config.bin %> <%= command.id %> "foo bar baz"',
+      description: 'Wrap command in quotes to use spaces as separators.',
+    },
   ]
 
   static strict = false
@@ -22,7 +35,7 @@ export default class Which extends Command {
     const {argv} = await this.parse(Which)
 
     if (argv.length === 0) {
-      throw new Errors.CLIError('"which" expects a command name', {
+      this.error('"which" expects a command name', {
         suggestions: [`Provide a command id like this, "${this.config.bin} which your:command:here"`],
       })
     }
@@ -46,8 +59,11 @@ export default class Which extends Command {
     }
 
     if (!this.jsonEnabled()) {
-      ux.styledHeader(commandParts.join(this.config.topicSeparator))
-      ux.styledObject(result)
+      this.log(bold(commandParts.join(this.config.topicSeparator)) + '\n')
+      this.log(`${cyan('plugin')}: ${result.plugin}`)
+      if (result.aliasOf) {
+        this.log(`${cyan('aliasOf')}: ${result.aliasOf}`)
+      }
     }
 
     return result
