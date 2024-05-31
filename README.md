@@ -23,7 +23,7 @@ $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
 $ oclif-example (--version)
-@oclif/plugin-which/3.1.10 linux-x64 node-v18.20.2
+@oclif/plugin-which/3.2.0 linux-x64 node-v18.20.3
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -56,9 +56,21 @@ EXAMPLES
   See which plugin the `help` command is in:
 
     $ oclif-example which help
+
+  Use colon separators.
+
+    $ oclif-example which foo:bar:baz
+
+  Use spaces as separators.
+
+    $ oclif-example which foo bar baz
+
+  Wrap command in quotes to use spaces as separators.
+
+    $ oclif-example which "foo bar baz"
 ```
 
-_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/3.1.10/src/commands/which.ts)_
+_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/3.2.0/src/commands/which.ts)_
 
 <!-- commandsstop -->
 
