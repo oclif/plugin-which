@@ -1,3 +1,9 @@
+## [3.2.1](https://github.com/oclif/plugin-which/compare/3.2.0...3.2.1) (2024-06-04)
+
+### Bug Fixes
+
+- core v4 ([4ed034f](https://github.com/oclif/plugin-which/commit/4ed034feccd370193e698793823050e5761fd575))
+
 # [3.2.0](https://github.com/oclif/plugin-which/compare/3.1.10...3.2.0) (2024-05-31)
 
 ### Features
