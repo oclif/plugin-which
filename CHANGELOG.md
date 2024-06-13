@@ -1,3 +1,9 @@
+## [3.2.3](https://github.com/oclif/plugin-which/compare/3.2.2...3.2.3) (2024-06-13)
+
+### Bug Fixes
+
+- **deps:** bump braces from 3.0.2 to 3.0.3 ([#625](https://github.com/oclif/plugin-which/issues/625)) ([25b32c4](https://github.com/oclif/plugin-which/commit/25b32c4e437b29ef5fc8d8b59a2d51d8cb4a0dd8))
+
 ## [3.2.2](https://github.com/oclif/plugin-which/compare/3.2.1...3.2.2) (2024-06-09)
 
 ### Bug Fixes
