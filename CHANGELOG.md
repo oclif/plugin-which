@@ -1,3 +1,10 @@
+## [3.2.9](https://github.com/oclif/plugin-which/compare/3.2.8...3.2.9) (2024-07-22)
+
+### Bug Fixes
+
+- **deps:** bump ansis from 3.2.1 to 3.3.1 ([#657](https://github.com/oclif/plugin-which/issues/657)) ([c33e7ea](https://github.com/oclif/plugin-which/commit/c33e7ea2974c696a07e78230ce920216fd7a53b5))
+- husky 9.1.1 fix ([6c7462d](https://github.com/oclif/plugin-which/commit/6c7462d3eb94b6832087092483e40d1b9d862edf))
+
 ## [3.2.8](https://github.com/oclif/plugin-which/compare/3.2.7...3.2.8) (2024-07-14)
 
 ### Bug Fixes
