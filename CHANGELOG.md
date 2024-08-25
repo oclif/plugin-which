@@ -1,3 +1,9 @@
+## [3.2.12](https://github.com/oclif/plugin-which/compare/3.2.11...3.2.12) (2024-08-25)
+
+### Bug Fixes
+
+- **deps:** bump micromatch from 4.0.7 to 4.0.8 ([#687](https://github.com/oclif/plugin-which/issues/687)) ([260ed48](https://github.com/oclif/plugin-which/commit/260ed48f90ecd007e1f1cdfb15aa6094e52fad61))
+
 ## [3.2.11](https://github.com/oclif/plugin-which/compare/3.2.10...3.2.11) (2024-08-25)
 
 ### Bug Fixes
