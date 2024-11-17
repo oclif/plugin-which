@@ -1,3 +1,9 @@
+## [3.2.18](https://github.com/oclif/plugin-which/compare/3.2.17...3.2.18) (2024-11-17)
+
+### Bug Fixes
+
+- **deps:** bump cross-spawn from 7.0.3 to 7.0.5 ([#744](https://github.com/oclif/plugin-which/issues/744)) ([58c342a](https://github.com/oclif/plugin-which/commit/58c342a2a6e23efa8880861d0aca7bc5949c0492))
+
 ## [3.2.17](https://github.com/oclif/plugin-which/compare/3.2.16...3.2.17) (2024-11-03)
 
 ### Bug Fixes
