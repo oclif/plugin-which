@@ -9,7 +9,6 @@ type WhichResult = {
 export default class Which extends Command {
   static description = 'Show which plugin a command is in.'
   static enableJsonFlag = true
-
   static examples = [
     {
       command: '<%= config.bin %> <%= command.id %> help',
@@ -28,7 +27,6 @@ export default class Which extends Command {
       description: 'Wrap command in quotes to use spaces as separators.',
     },
   ]
-
   static strict = false
 
   async run(): Promise<WhichResult> {
