@@ -1,3 +1,9 @@
+## [3.2.31](https://github.com/oclif/plugin-which/compare/3.2.30...3.2.31) (2025-02-24)
+
+### Bug Fixes
+
+- **deps:** bump ansis from 3.14.0 to 3.16.0 ([#812](https://github.com/oclif/plugin-which/issues/812)) ([6860319](https://github.com/oclif/plugin-which/commit/6860319c0835bc2d6fbe53dbe3fe651611101dfd))
+
 ## [3.2.30](https://github.com/oclif/plugin-which/compare/3.2.29...3.2.30) (2025-02-16)
 
 ### Bug Fixes
