@@ -23,7 +23,7 @@ $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
 $ oclif-example (--version)
-@oclif/plugin-which/3.2.41 linux-x64 node-v20.19.5
+@oclif/plugin-which/3.2.42 linux-x64 node-v20.19.5
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -70,7 +70,7 @@ EXAMPLES
     $ oclif-example which "foo bar baz"
 ```
 
-_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/3.2.41/src/commands/which.ts)_
+_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/3.2.42/src/commands/which.ts)_
 
 <!-- commandsstop -->
 
