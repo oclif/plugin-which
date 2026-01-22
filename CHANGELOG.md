@@ -1,3 +1,9 @@
+## [3.2.43](https://github.com/oclif/plugin-which/compare/3.2.42...3.2.43) (2026-01-22)
+
+### Bug Fixes
+
+- **deps:** bump lodash from 4.17.21 to 4.17.23 ([#990](https://github.com/oclif/plugin-which/issues/990)) ([40e3a0b](https://github.com/oclif/plugin-which/commit/40e3a0be9dc0006653d82453989443e5a48777c1))
+
 ## [3.2.42](https://github.com/oclif/plugin-which/compare/3.2.41...3.2.42) (2025-10-26)
 
 ### Bug Fixes
