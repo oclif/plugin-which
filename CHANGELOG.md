@@ -1,3 +1,9 @@
+## [3.2.45](https://github.com/oclif/plugin-which/compare/3.2.44...3.2.45) (2026-03-21)
+
+### Bug Fixes
+
+- **deps:** bump flatted from 3.3.2 to 3.4.2 ([#1010](https://github.com/oclif/plugin-which/issues/1010)) ([35e30bc](https://github.com/oclif/plugin-which/commit/35e30bc6bcfe491bccdbfe2a169ec70de3df2e98))
+
 ## [3.2.44](https://github.com/oclif/plugin-which/compare/3.2.43...3.2.44) (2026-03-06)
 
 ### Bug Fixes
