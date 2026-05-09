@@ -1,3 +1,9 @@
+## [3.2.52](https://github.com/oclif/plugin-which/compare/3.2.51...3.2.52) (2026-05-09)
+
+### Bug Fixes
+
+- **deps:** bump fast-xml-builder from 1.1.4 to 1.2.0 ([#1035](https://github.com/oclif/plugin-which/issues/1035)) ([6496fef](https://github.com/oclif/plugin-which/commit/6496fef26080692a8e3c08baf7c657d7fa06f44a))
+
 ## [3.2.51](https://github.com/oclif/plugin-which/compare/3.2.50...3.2.51) (2026-05-03)
 
 ### Bug Fixes
