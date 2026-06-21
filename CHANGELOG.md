@@ -1,3 +1,9 @@
+## [3.2.56](https://github.com/oclif/plugin-which/compare/3.2.55...3.2.56) (2026-06-21)
+
+### Bug Fixes
+
+- **deps:** bump @babel/core from 7.10.3 to 7.29.7 ([#1059](https://github.com/oclif/plugin-which/issues/1059)) ([950d274](https://github.com/oclif/plugin-which/commit/950d274148f713fb8386b3a6d75cd2d72bf7d225))
+
 ## [3.2.55](https://github.com/oclif/plugin-which/compare/3.2.54...3.2.55) (2026-05-24)
 
 ### Bug Fixes
