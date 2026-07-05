@@ -1223,10 +1223,10 @@
   resolved "https://registry.yarnpkg.com/@nolyfill/is-core-module/-/is-core-module-1.0.39.tgz#3dc35ba0f1e66b403c00b39344f870298ebb1c8e"
   integrity sha512-nn5ozdjYQpUCZlWGuxcJY/KpxkWQs4DcbMCmKojjyrYDEAGy4Ce19NN4v5MduafTwJlbKc99UA8YhSVqq9yPZA==
 
-"@oclif/core@^4", "@oclif/core@^4.11.4":
-  version "4.11.11"
-  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.11.11.tgz#bd5c7d79285c12a43e5830b3362773dbe6048878"
-  integrity sha512-LoGzrvkH9I8dwhxuLafcf90MAp+fYfAiAhpyixaVAWaclIgs+vXeMMQwBG90/wqjdygIKcFAqNnNJrfl3s3X8Q==
+"@oclif/core@^4", "@oclif/core@^4.11.11", "@oclif/core@^4.11.4":
+  version "4.11.14"
+  resolved "https://registry.yarnpkg.com/@oclif/core/-/core-4.11.14.tgz#45cc28d78a5ea2ac9d1586c57e537771394da44c"
+  integrity sha512-cZ5Ktd+rT0PO+o7KBH4vRFTgg+xMLf8F41WK39p8MkXEViZA/Qqe+4lzZT6102zgUxMORET1HtF9t5w8CB3tnQ==
   dependencies:
     ansi-escapes "^4.3.2"
     ansis "^3.17.0"
@@ -5362,17 +5362,17 @@ object.values@^1.2.1:
     define-properties "^1.2.1"
     es-object-atoms "^1.0.0"
 
-oclif@^4.23.23:
-  version "4.23.23"
-  resolved "https://registry.yarnpkg.com/oclif/-/oclif-4.23.23.tgz#ed8d1ef2b4a24990f494fa56cc3ea6162d5257d3"
-  integrity sha512-xO5p8LbBiZaKw1SGHVzxP6GaGm5KR/TXNbv1geQKfKeNAcNZd473ZZqhHtITTWRyyxXco1Te8bygorZPrCiwFA==
+oclif@^4.23.24:
+  version "4.23.24"
+  resolved "https://registry.yarnpkg.com/oclif/-/oclif-4.23.24.tgz#d9e5d65f0350938287af24430e187e8836684715"
+  integrity sha512-QbjHsrV5z5PWUIsLXHcPaWyECqOrX7JekXaTvL3WekUf5wl+B3kqZb5JD2dI3ndyDwTfJ8rLFMCIt6B4T6fpeA==
   dependencies:
     "@aws-sdk/client-cloudfront" "^3.1075.0"
     "@aws-sdk/client-s3" "^3.1073.0"
     "@inquirer/confirm" "^3.1.22"
     "@inquirer/input" "^2.2.4"
     "@inquirer/select" "^2.5.0"
-    "@oclif/core" "^4.11.4"
+    "@oclif/core" "^4.11.11"
     "@oclif/plugin-help" "^6.2.52"
     "@oclif/plugin-not-found" "^3.2.87"
     "@oclif/plugin-warn-if-update-available" "^3.1.67"
