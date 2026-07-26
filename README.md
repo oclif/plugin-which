@@ -12,6 +12,7 @@ find which plugin a command is in
 - [Usage](#usage)
 - [Commands](#commands)
 - [Contributing](#contributing)
+
 <!-- tocstop -->
 
 # Usage
@@ -23,7 +24,7 @@ $ npm install -g @oclif/plugin-which
 $ oclif-example COMMAND
 running command...
 $ oclif-example (--version)
-@oclif/plugin-which/3.2.58 linux-x64 node-v22.23.0
+@oclif/plugin-which/3.2.59 linux-x64 node-v22.23.1
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -70,8 +71,7 @@ EXAMPLES
     $ oclif-example which "foo bar baz"
 ```
 
-_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/3.2.58/src/commands/which.ts)_
-
+_See code: [src/commands/which.ts](https://github.com/oclif/plugin-which/blob/3.2.59/src/commands/which.ts)_
 <!-- commandsstop -->
 
 # Contributing
