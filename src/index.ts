@@ -1,1 +1,3 @@
-export default {}
+const exports = {}
+
+export default exports

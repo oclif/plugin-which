@@ -27,6 +27,7 @@ export default class Which extends Command {
       description: 'Wrap command in quotes to use spaces as separators.',
     },
   ]
+
   static strict = false
 
   async run(): Promise<WhichResult> {

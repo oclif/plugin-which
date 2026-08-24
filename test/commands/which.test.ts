@@ -1,9 +1,9 @@
 import {runCommand} from '@oclif/test'
 import {expect} from 'chai'
-import {dirname, join} from 'node:path'
+import path from 'node:path'
 import {fileURLToPath} from 'node:url'
 
-const root = join(dirname(fileURLToPath(import.meta.url)), '..', 'fixtures/test-plugin')
+const root = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'fixtures/test-plugin')
 
 describe('which', () => {
   it('should return plugin name for colon separated command', async () => {
