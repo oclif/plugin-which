@@ -1,3 +1,9 @@
+# [3.3.0](https://github.com/oclif/plugin-which/compare/3.2.61...3.3.0) (2026-08-24)
+
+### Features
+
+- bumping eslint to v10 (W-23473845) ([3268df9](https://github.com/oclif/plugin-which/commit/3268df9263ca207d7d9e2e6d54dc79a6587b3882))
+
 ## [3.2.61](https://github.com/oclif/plugin-which/compare/3.2.60...3.2.61) (2026-08-09)
 
 ### Bug Fixes
