@@ -1,3 +1,9 @@
+## [4.0.1](https://github.com/oclif/plugin-which/compare/4.0.0...4.0.1) (2026-09-25)
+
+### Bug Fixes
+
+- **deps:** bump browserslist from 4.28.2 to 4.28.9 ([04408f8](https://github.com/oclif/plugin-which/commit/04408f83e8ffc8bd3a51fe3b9f657bbed012fb7c))
+
 # [4.0.0](https://github.com/oclif/plugin-which/compare/3.3.0...4.0.0) (2026-08-31)
 
 - feat!: upgrade oclif/core to v5 @W-23512455@ ([98df2ba](https://github.com/oclif/plugin-which/commit/98df2baf1f0dcb55b11016a62c1ca038bb03bea3))
