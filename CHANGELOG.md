@@ -1,3 +1,9 @@
+## [4.0.3](https://github.com/oclif/plugin-which/compare/4.0.2...4.0.3) (2026-10-09)
+
+### Bug Fixes
+
+- **deps:** bump @humanfs/node from 0.16.6 to 0.16.8 ([#1098](https://github.com/oclif/plugin-which/issues/1098)) ([1984667](https://github.com/oclif/plugin-which/commit/1984667239886a3f208a017477987e1e9c6438bf))
+
 ## [4.0.2](https://github.com/oclif/plugin-which/compare/4.0.1...4.0.2) (2026-10-09)
 
 ### Bug Fixes
