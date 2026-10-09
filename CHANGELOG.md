@@ -1,3 +1,9 @@
+## [4.0.2](https://github.com/oclif/plugin-which/compare/4.0.1...4.0.2) (2026-10-09)
+
+### Bug Fixes
+
+- **deps:** bump source-map-js from 1.2.1 to 1.2.2 ([#1103](https://github.com/oclif/plugin-which/issues/1103)) ([93050ee](https://github.com/oclif/plugin-which/commit/93050eef041d2111c546923f16fd791d4fd07b77))
+
 ## [4.0.1](https://github.com/oclif/plugin-which/compare/4.0.0...4.0.1) (2026-09-25)
 
 ### Bug Fixes
