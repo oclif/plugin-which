@@ -1,3 +1,9 @@
+## [4.0.8](https://github.com/oclif/plugin-which/compare/4.0.7...4.0.8) (2026-11-08)
+
+### Bug Fixes
+
+- **deps:** bump js-yaml from 3.14.1 to 3.15.2 ([#1118](https://github.com/oclif/plugin-which/issues/1118)) ([9e20622](https://github.com/oclif/plugin-which/commit/9e2062287ed3ae78b192844ad3136cb86e81f631))
+
 ## [4.0.7](https://github.com/oclif/plugin-which/compare/4.0.6...4.0.7) (2026-11-08)
 
 ### Bug Fixes
