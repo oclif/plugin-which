@@ -1,3 +1,9 @@
+## [4.0.7](https://github.com/oclif/plugin-which/compare/4.0.6...4.0.7) (2026-11-08)
+
+### Bug Fixes
+
+- **deps:** bump brace-expansion from 1.1.11 to 1.1.21 ([#1119](https://github.com/oclif/plugin-which/issues/1119)) ([e0fbd71](https://github.com/oclif/plugin-which/commit/e0fbd7115818034b7c7437cd2ef55594e2f4c6ca))
+
 ## [4.0.6](https://github.com/oclif/plugin-which/compare/4.0.5...4.0.6) (2026-10-25)
 
 ### Bug Fixes
