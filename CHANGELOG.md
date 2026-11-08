@@ -1,3 +1,9 @@
+## [4.0.9](https://github.com/oclif/plugin-which/compare/4.0.8...4.0.9) (2026-11-08)
+
+### Bug Fixes
+
+- **deps:** bump picomatch from 2.3.1 to 2.3.2 ([#1120](https://github.com/oclif/plugin-which/issues/1120)) ([ab7eb4a](https://github.com/oclif/plugin-which/commit/ab7eb4ab41c34a680240e15e5d994ac9866eddc9))
+
 ## [4.0.8](https://github.com/oclif/plugin-which/compare/4.0.7...4.0.8) (2026-11-08)
 
 ### Bug Fixes
